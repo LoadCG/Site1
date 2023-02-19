@@ -259,16 +259,21 @@ table#ServicosTable {
     align-items: 0 auto;
     text-align: center;
     border-top: 0.4px solid rgb(103, 113, 250); 
-    margin-bottom: 100px;
+    margin-bottom: 90px;
 }
 .w33{
     display: inline-block;
     width: 33%;
-    margin: 0 auto;
+    margin: 10px 0 auto;
 }
 .w33title{
     font-size: 28px;
     font-weight: 500;
+}
+.w33text{
+    max-width: 500px;
+    min-width: 250px;
+    margin: auto;
 }
 
 /*CONTATO - acima*/
