@@ -149,6 +149,8 @@ form [type="submit"]{
 }
 form [type="submit"]:hover{
     cursor: pointer;
+    background-color: rgb(45, 76, 138);
+    transition-duration: 0.5s;
 }
 /*Parte do botão de enviar - acima*/
 
@@ -249,6 +251,7 @@ table#ServicosTable {
 /*CONTATO - abaixo*/
 #contatoTitle{
     font-size: 35px;
+    margin-bottom: 50px;
 }
 #Contato{
     padding-top: 100px;
@@ -257,6 +260,15 @@ table#ServicosTable {
     text-align: center;
     border-top: 0.4px solid rgb(103, 113, 250); 
     margin-bottom: 100px;
+}
+.w33{
+    display: inline-block;
+    width: 33%;
+    margin: 0 auto;
+}
+.w33title{
+    font-size: 28px;
+    font-weight: 500;
 }
 
 /*CONTATO - acima*/
@@ -279,11 +291,12 @@ table#ServicosTable {
   
   .btn-topo:hover {
     background-color: rgb(56,95,172);
+    transition-duration: 0.4s;
   }
   .material-symbols-outlined {
     text-align: center;
     color: white;
-    font-size: 30px;
+    font-size: 28px;
     font-variation-settings:
     'FILL' 0,
     'wght' 400,
