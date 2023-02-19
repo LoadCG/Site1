@@ -20,6 +20,8 @@ header{
     justify-content: space-between;
     align-items: center;
     margin-top: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 #title{
@@ -63,7 +65,7 @@ h1:hover{
     color: white;
     text-decoration: solid;
     padding: 12px;
-    border-radius: 15px;
+    border-radius: 20px;
 }
 /*header fim*/
 
@@ -253,7 +255,7 @@ table#ServicosTable {
     font-size: 35px;
     margin-bottom: 50px;
 }
-#Contato{
+#Contatos{
     padding-top: 100px;
     margin-top: 100px;
     align-items: 0 auto;
@@ -261,23 +263,17 @@ table#ServicosTable {
     border-top: 0.4px solid rgb(103, 113, 250); 
     margin-bottom: 90px;
 }
-.w33{
-    display: inline-block;
-    width: 33%;
-    margin: 10px 0 auto;
-}
-.w33title{
-    font-size: 28px;
-    font-weight: 500;
-}
-.w33text{
-    max-width: 500px;
-    min-width: 250px;
-    margin: auto;
-}
-
 /*CONTATO - acima*/
 /*Estilização do botão que serve para voltar ao topo*/
+
+@keyframes btn-topo {
+    0%{padding-top: 0px; padding-bottom: 0px;}
+    25%{padding-top: auto; padding-bottom: 15px;}
+    50%{padding-top: 10px; padding-bottom: auto;}
+    100%{padding-top: 0px; padding-bottom: 0px;}
+    
+}
+
 .btn-topo {
     width: 60px;
     height: 60px;
@@ -297,6 +293,7 @@ table#ServicosTable {
   .btn-topo:hover {
     background-color: rgb(56,95,172);
     transition-duration: 0.4s;
+    animation: btn-topo 0.6s infinite;
   }
   .material-symbols-outlined {
     text-align: center;

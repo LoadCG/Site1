@@ -1,12 +1,4 @@
-@media screen and (max-width: 1012px){
-
-    header{
-        flex-direction: column;
-    }
-
-    header ul > li{
-        display: none;
-    }
+@media screen and (max-width: 1010px){
 
     main{
         flex-direction: column;
@@ -23,6 +15,7 @@
 
     input{
         align-self: center;
+        width: 90%;
     }
     
     img{
