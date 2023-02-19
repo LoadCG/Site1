@@ -40,8 +40,8 @@ a{
     color: white;
 }
 a:hover{
-    text-decoration: underline;
-    color: rgb(103, 113, 250);
+    border-bottom: 3px solid rgb(255,201,84);
+    color: rgb(81,137,249);
     cursor: pointer;
     transition: 0.3s all;
 }
